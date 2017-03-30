@@ -764,3 +764,6 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/files/config_mWqUZ37X_xALN-jUX5JqyY3W2fVWYjJRukoCZdokN9C_SUb7321ulY5kxZAE9R2SCnLL-Dq4-g/sync';
+error_reporting(E_ALL);
+ini_set('display_errors', TRUE);
+ini_set('display_startup_errors', TRUE);
